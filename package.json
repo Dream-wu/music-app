@@ -7,10 +7,9 @@
     "build": "vue-cli-service build"
   },
   "dependencies": {
+    "axios": "^0.24.0",
     "core-js": "^3.6.5",
-    "swiper": "^7.2.0",
     "vue": "^3.0.0",
-    "vue-awesome-swiper": "^4.1.1",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
   },
@@ -21,6 +20,7 @@
     "@vue/cli-service": "~4.5.0",
     "@vue/compiler-sfc": "^3.0.0",
     "less": "^3.0.4",
-    "less-loader": "^5.0.0"
+    "less-loader": "^5.0.0",
+    "swiper": "^5.4.5"
   }
 }

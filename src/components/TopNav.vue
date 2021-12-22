@@ -6,12 +6,12 @@
       </svg>
     </div>
     <div class="top-nav-center">
-        <span class="top-nav-center-item">我的</span>
+        <span class="top-nav-center-item" @click="$router.push('/me')">我的</span>
         <span class="top-nav-center-item active">发现</span>
         <span class="top-nav-center-item">云村</span>
         <span class="top-nav-center-item">视频</span>
     </div>
-    <div class="top-nav-right">
+    <div class="top-nav-right" @click="$router.push('./searchview')">
         <svg class="icon" aria-hidden="true">
             <use xlink:href="#icon-sousuo"></use>
         </svg>
