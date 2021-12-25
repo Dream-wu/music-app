@@ -37,3 +37,6 @@ yarn add swiper@5.x vue-awesome-swiper
 # 后端服务地址
 线上：https://neteasecloudmusicapi.vercel.app/#/?id=neteasecloudmusicapi
 本地启动后端服务： http://localhost:3000
+
+# 部署到码云静态服务器
+只提交部署dist目录内容

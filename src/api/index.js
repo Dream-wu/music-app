@@ -1,7 +1,7 @@
 import axios from "axios";
 
 let service = axios.create({
-    // baseURL: 'localhost:3000'
+    baseURL: 'localhost:8080'  //本地联调
 });
 
 // 获取banner图
